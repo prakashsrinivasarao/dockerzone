@@ -1,4 +1,4 @@
-FROM amazoncorretto:11
+FROM amazoncorretto:11-alpine3.17
 LABEL : author="vinitha"
 LABEL : orgnization="qulitythoughts"
 RUN mkdir /petclinic
